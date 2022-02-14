@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bible App</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>Bible Verse Search</h1>
+		<img src="https://cdn.stocksnap.io/img-thumbs/960w/VRU2C8T6L1.jpg"></img>
+		<div class="interactive">
+		<div id="outputVerse">
+		</div>
+
+		<form>
+			<label>Enter a Book of the Bible</label>
+			<input id="bookInput" type="text"></input><br/>
+		
+			<label>Enter Chapter</label>
+			<input id="chapterInput" type="text"></input><br/>
+
+			<label>Enter Verses</label>
+			<input id="verseInput" type="text"></input><br/>
+			
+			<label for="translation">Choose a translation:</label>
+
+			<select name="translation" id="transType">
+				<option value="bbe">Basic English</option>
+				<option value="kjv">King James Version</option>
+				<option value="web">World English Bible</option>
+				<option value="oeb-us">US Open English Bible</option>
+			</select><br/>
+
+			<input class="button" id="verseSubmit" type="submit" value="Submit"></input>
+		</form>
+		</div>
+
+		<div class="footer">
+			<hr/>
+			<h2>GitHub</h2>
+			<a href="https://github.com/wijams/bibleapi">Git Repository</a>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

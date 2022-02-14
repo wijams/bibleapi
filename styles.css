@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1ddcf;
+	justify-content: center;
+	text-align: center;
+}
+
+h1 {
+	padding: 10px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+label {
+	margin: 30px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+option {
+	text-align: center;
+}
+
+.interactive {
+	background-color: white;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 10px;
+}
+
+.interactive hr {
+	margin: 20px;
+	padding: 0;
+}
+
+.button {
+	margin: 20px;
+}
